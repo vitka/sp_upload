@@ -5,10 +5,10 @@ set -euo pipefail
 client_id="${MS_GRAPH_CLIENT_ID}"
 client_secret="${MS_GRAPH_CLIENT_SECRET}"
 tenant_id="${MS_GRAPH_TENANT_ID}"
-domain="${MS_GRAPH_DOMAIN:}"
-site="${MS_GRAPH_SITE:}"
+domain="${MS_GRAPH_DOMAIN}"
+site="${MS_GRAPH_SITE}"
 drive="${MS_GRAPH_DRIVE:-Documents}"
-folder="${MS_GRAPH_FOLDER:}"
+folder="${MS_GRAPH_FOLDER}"
 
 chunk_size=10485760 # 10 MiB
 
